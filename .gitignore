@@ -1,0 +1,14 @@
+node_modules
+.env
+.env.local
+dist
+build
+*.docx
+*.pdf
+scratch/
+fix_all.js
+inspect_empty_p.py
+test_footer.docx
+test_sec_xml.docx
+test_sections.docx
+.DS_Store
