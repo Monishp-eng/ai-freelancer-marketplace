@@ -1,8 +1,9 @@
 services:
   - type: web
     name: ai-freelancer-marketplace
-    env: node
+    runtime: node
     plan: free
+    branch: main
     buildCommand: npm run build
     startCommand: npm start
     envVars:
